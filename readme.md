@@ -2,7 +2,8 @@ This is an introduction to AJAX and the STACK in general.
 
 ---
 - npm init
-- npm install express
+- npm install express --save
+- npm install body-parser --save (if you need to have posts)
 - installed express
 - server is up with
 
@@ -24,3 +25,5 @@ app.use(express.static('server/public'));
 
 - this line should be above routes
 - build out static files with html js css and libs
+- set up get and post routes
+- work out server side functionality
