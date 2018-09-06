@@ -18,3 +18,9 @@ Setting up a basic webpage with jQuery
 - create a public folder for scripts and vendors
 - also create index.html
 - move in JQ
+- setup static
+
+app.use(express.static('server/public'));
+
+- this line should be above routes
+- build out static files with html js css and libs
